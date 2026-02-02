@@ -9,9 +9,9 @@ public class First_1 {
 		Multiple mul_2 = new Multiple();
 		Multiple mul_3 = new Multiple();
 		Multiple mul_4 = new Multiple();
-		
+
 //		mul.run();
-		
+
 		mul.start();
 		mul_1.start();
 		mul_2.start();
