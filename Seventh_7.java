@@ -1,37 +1,34 @@
 package multi_threading;
 
-public class Seventh_sny_7 {
+public class Seventh_7 {
 
 	public static void main(String[] args) throws InterruptedException {
 
 		Printer Obj = new Printer();
 		Printer Obj_2 = new Printer();
-		
-		
-		
+
 		Switch_on ons = new Switch_on(Obj);
 		Switch_of ofs = new Switch_of(Obj_2);
-		
+
 		ons.start();
 		ofs.start();
-		
+
 		Thread.sleep(4500);
-		
+
 		System.out.println(Obj.getPrinter());
 		System.out.println(Obj_2.getPrinter());
-	
+
 	}
 
 }
 
 class Printer {
 	int counter = 0;
-	int counter_2 = 0;
+
 	public void Incresed() {
-		synchronized(this) {
+
 		this.counter++;
-		}
-		this.counter_2 = counter_2;
+
 	}
 
 	public int getPrinter() {

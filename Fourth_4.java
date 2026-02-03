@@ -1,6 +1,6 @@
 package multi_threading;
 
-public class Fourth_Sny1 {
+public class Fourth_4 {
 
 	public static void main(String[] args) throws Exception {
 		

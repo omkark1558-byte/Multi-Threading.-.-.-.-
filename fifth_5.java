@@ -1,6 +1,6 @@
 package multi_threading;
 
-public class fifth_sny_2 {
+public class fifth_5 {
 
 	public static void main(String[] args) {
 
